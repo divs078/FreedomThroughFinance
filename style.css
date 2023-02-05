@@ -1,0 +1,74 @@
+.navigation-bar {
+  background-color:#A7C4BC;
+}
+  body {background-image: url("./assets/bg.png");
+ background-size: 1000px 1000px;
+
+}
+
+.navigation-bar a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 30px
+}
+
+/* Change the color of links on hover */
+.navigation-bar a:hover {
+  color: #2F5D62;
+}
+
+header { background-color: #2F5D62;
+  padding: 100px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+}
+
+
+photo{
+ display:flex; 
+ align-content: left; 
+}
+
+aboutus{
+  background-color: #5E8B7E;
+  display:flex; 
+  align-content: center; 
+  padding: 10px; 
+  text-align: center; 
+  font-family: 'Mulish', sans-serif;
+  color: white;
+}
+
+keyfacts{
+  display:flex; 
+  align-content:space-around; 
+  background-color: #5E8B7E;
+  padding: 20px; 
+  text-align: center; 
+  font-family: 'Mulish', sans-serif;
+  color: white;
+}
+
+.parallax {
+  background-image: url("./assets/img.png");
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px
+}
+
+moneylong{
+
+  height: 500 px; 
+}
+
+li {font-size: 25px}
+
+.mission {font-size:35px;

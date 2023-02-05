@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="SavingInvesting.css" rel="stylesheet" type="text/css" />
+     <!-- Link to jQuery! --->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- Link to Google Fonts --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    
+  </head>
+  <body> 
+    <div class="navigation-bar">
+      <a href="index.html">Home</a>
+      <a href="saving.html">Saving</a>
+      <a href="investing.html">Investing</a>
+       <a href = "resources.html">Resources</a> 
+    </div>
+
+  <header>
+  <h2>INVESTING</h2>
+  </header>
+
+
+<section>
+<div id="demo">
+   <p class="question">Do you invest?<p>
+  <label><input type="radio" name="example1" value="yes"><span></span> Yes</label>
+  <label><input type="radio" name="example1" value="no"><span></span> No</label>
+
+  <div class="conditional" data-cond-option="example1" data-cond-value="yes">
+    <label><input type="checkbox" name="example2"><span></span> Less than $500</label>
+    <label><input type="checkbox" name="example3"><span></span> More than $500</label>
+    
+    <div class="conditional" data-cond-option="example2" data-cond-value="on">
+      That's not enough! you need to invest more! Check out our <a href = "resources.html">Resources</a> page!
+    </div>
+    <div class="conditional" data-cond-option="example3" data-cond-value="on">
+     That's awesome but you could invest more that this! Check out our <a href = "resources.html">Resources</a> page!
+    </div>
+  </div>
+  <div class="conditional" data-cond-option="example1" data-cond-value="no">
+    <p>You need to start now! Check out our <a href = "resources.html">Resources</a> page!</p>
+</div>
+  </section>
+ 
+ <table>
+ <tr>
+  <td class="context">A survey by S&P Global found that only 26% of American women have money in the stock market. Per U.S. Trust, 65% of women have a large percentage of their assets in cash, compared to 51% of men, and 41% of women have no plans to invest that cash, compared to 31% of men. <br>
+  Girls, it's time we start investing.
+    <br>
+    Besides,  women tend to take more career breaks than men. This could happen at various stages of life, such as when women get married, when they have kids, or even when their spouse is transferred to a different city. In recent years, women are also taking career breaks for upskilling themselves or pursuing further education. A break in career also means a break in income. During such phases, savings and income from investments come in handy.
+    </td>
+  <td>
+    <img class="moneyimg" src="https://images.pexels.com/photos/4475523/pexels-photo-4475523.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+    </td>
+ </tr>
+ <tr>
+  <td colspan="2"> <h2 class = "title"> Tips for Investing </h2> 
+  <br>
+  <ul>
+    <li class="mainpoint"> Educate yourself <br>
+   <p class="content1"> 
+     The investment world has many different avenues that range from Certificates of Deposit (CDs) and Treasury Bills (T-Bills) to stocks, bonds, and mutual funds. The more you know, the better your chances of becoming a savvy investor. Read books and listen to podcasts to gain a deeper understanding of the subject!
+     </p>
+  </li>
+
+ <li class="mainpoint"> Create an investment plan <br>
+      <p class="content2">
+        Once you have set your goals, you need to create a solid investment plan. First, determine how much money you have to invest, and start thinking about how to make your money work for you to achieve your financial goals. Rather than a set of rules, an investment plan provides guidelines that can help you organize and direct your energies. Financial plans should have continuity and a solid foundation, but at the same time be adaptable to changes that invariably happen in life. 
+        </p>
+  </li>
+
+  <li class="mainpoint"> Invest wisely <br>
+      <p class="content3">
+       When setting up an investment portfolio, you should make sure to diversify your investments; that is, make sure the risk is spread out and not all focused in one place. Some investments are safe but have little return (bonds, money market, treasury bills), whereas other investments come with a greater risk and thus a greater yield (stocks, funds, and futures). Also, some investments work better on a short-term basis, while others are better over the long term. By diversifying your financial portfolio, you create more security for yourself.
+        </p>
+  </li>
+
+  <li class="mainpoint"> Set up an emergency fund <br>
+      <p class="content4">
+       You should safeguard your finances by setting up an emergency fund to deal with potential problems that could drain your finances (such as unforeseen medical or legal problems). 
+        </p>
+  </li>
+
+  <li class="mainpoint">  Avoid high-risk investments <br>
+     <p class="content5">
+        High-risk investments are like gambling on long shots. On the whole, you have to be prepared to lose your money. Even in the world of stocks and futures, some investments are much riskier than others.
+        </p>
+  </li>
+
+
+  <li class="mainpoint"> Be open to new ideas <br>
+      <p class="content6">
+        You should be adaptable and change your portfolio to reflect what is happening both in your life and in the world around you. Be aware of both financial and cultural trends. Keep up-to-date by reading business and financial journals, newsletters, magazines, and Web sites.
+        </p>
+  </li>
+  </ul>
+  </td>
+ </tr>
+ <tr>
+  <td class="title">
+    Importance of Investing
+    <br>
+    <p class="content7">
+Women today have many professional as well as personal life goals, ranging from travelling the world to kick starting their own businesses. All of these goals need to be backed by adequate finances, where investment planning helps. With the right financial plan, women can ensure that they meet their goals in the timeframe needed, without relying on men to back their dreams. 
+    </p>
+</td>
+  <td>
+    <img class="moneyimg" src="https://images.pexels.com/photos/4386335/pexels-photo-4386335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
+    </td>
+ </tr>
+</table>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./SavingInvesting.js"></script>
+  </body>
+</html>
